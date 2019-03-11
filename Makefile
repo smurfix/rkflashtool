@@ -4,7 +4,7 @@ CC	= $(CROSSPREFIX)gcc
 LD	= $(CC)
 CFLAGS	= -O2 -W -Wall
 LDFLAGS	=
-PREFIX ?= usr/local
+PREFIX ?= usr
 
 PKGCONFIG ?= $(shell pkg-config --exists libusb-1.0 && echo 1)
 
